@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Blazor123\Blazor123.csproj" />
+      <ProjectReference Include="..\WebApi\WebApi.csproj" />
     </ItemGroup>
 
 </Project>

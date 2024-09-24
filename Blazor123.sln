@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "ServiceD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost", "AppHost\AppHost.csproj", "{5867C486-6A94-437E-A6EB-F6EB6455DCD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{6214EBD9-B65C-4A9E-A3FF-BBA495AD2CA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{5867C486-6A94-437E-A6EB-F6EB6455DCD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5867C486-6A94-437E-A6EB-F6EB6455DCD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5867C486-6A94-437E-A6EB-F6EB6455DCD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6214EBD9-B65C-4A9E-A3FF-BBA495AD2CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6214EBD9-B65C-4A9E-A3FF-BBA495AD2CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6214EBD9-B65C-4A9E-A3FF-BBA495AD2CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6214EBD9-B65C-4A9E-A3FF-BBA495AD2CA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
