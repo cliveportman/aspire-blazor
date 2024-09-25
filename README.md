@@ -22,13 +22,13 @@ Now start the App Host project and you should be given a dashboard that contains
 Add an API, by adding another project to the solutions using the Web > Web Api template. Again, add the reference to this by right-clicking on the App Host project. Start the solution again, and it should appear in the dashboard alongside the Blazor project.
 
 ## Launch profiles
-You might notice your Blazor project only starts up using the 'http' address. Looking in the Blazor project's properties > launchSettings.json, you'll see a `http` profile. A `https` profile exists already but it's not being used because App Host is defaulting to the first profile. I suspect you can just change the order but to be explicit, update th line `var web = builder.AddProject<Projects.Blazor123>("Blazor123");` in the App Hosts Program.cs file to:
+You might notice your Blazor project only starts up using the 'http' address. Looking in the Blazor project's properties > launchSettings.json, you'll see a `http` profile. A `https` profile exists already but it's not being used because App Host is defaulting to the first profile. I suspect you can just change the order but to be explicit, update the line `var web = builder.AddProject<Projects.Blazor123>("Blazor123");` in the App Hosts Program.cs file to include the launch profile name:
 
 ```
 var web = builder.AddProject<Projects.Blazor123>("Blazor123", launchProfileName: "https");
 ```
 
-Repeat for the API project, and you should see both projects starting up using the https address.
+Repeat for the API project, and you should see both projects starting up using the https address next time you start the solution.
 
 
 
